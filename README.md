@@ -52,3 +52,15 @@ L'application fournit une interface simple et intuitive, avec un système de fil
 1. **Clonez le dépôt ou décompressez les fichiers** :
    ```bash
    git clone <lien_du_dépôt> ou décompressez le fichier ZIP fourni.
+
+
+
+<img width="952" alt="Capture d’écran 2025-01-13 143712" src="https://github.com/user-attachments/assets/5ec80fa4-f437-401d-9210-4f3d690ea01c" />
+
+<img width="957" alt="Capture d’écran 2025-01-13 143744" src="https://github.com/user-attachments/assets/75e37701-77ab-4806-91d7-344d7e313d55" />
+
+   
+<img width="959" alt="Capture d’écran 2025-01-13 143809" src="https://github.com/user-attachments/assets/bf83856b-90dc-4d27-93d0-c7ae8158a3fb" />
+
+
+<img width="959" alt="Capture d’écran 2025-01-13 143838" src="https://github.com/user-attachments/assets/8ea44f8b-9d6f-42b0-b0ba-b64e1df42859" />
