@@ -68,7 +68,3 @@ L'application fournit une interface simple et intuitive, avec un système de fil
 
 
 
-
-https://github.com/user-attachments/assets/b62a1cb5-2202-4602-b27e-e649b80f2fb8
-
-
