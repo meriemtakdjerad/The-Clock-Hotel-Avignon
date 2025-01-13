@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>W3.CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left  w3-light-blue" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large  w3-light-blue"
+  onclick="w3_close()">Fermer &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Présentation de notre hotel</a>
+  <a href="modifresa.php" class="w3-bar-item w3-button">Créer ou modifier une réservation à l'hôtel </a>
+  <a href="reservations.php" class="w3-bar-item w3-button">Les réservations existantes</a>
+</div>
+
+<div id="main">
+
+<div class=" w3-light-bluey">
+  <button id="openNav" class="w3-button w3-xlarge  w3-light-blue" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container w3-center">
+    <h2>L’HÔTEL DE L’HORLOGE AVIGNON</h2>
+</div>
+
+</div>
+<div class="w3-card-4">
+<img src="meriem.jpg" alt="Picture by Avignon photographer" style="width:20%"></div>
+<div class="w3-text-pink">
+  Picture by Avignon photographer
+</div>
+<div class="w3-container">
+  <h2>UNE ADRESSE DE CARACTÈRs</h2>
+
+  <p>Bienvenue à l‘Hôtel de l’Horloge à Avignon, un charmant hôtel 4 étoiles idéalement situé sur la Place de l’Horloge au cœur du centre-ville d’Avignon. Découvrez un véritable havre de confort et d’élégance </p>
+
+  <p>Profitez de notre délicieux petit déjeuner servi dans notre superbe véranda, savourez l’ambiance unique de notre salon bibliothèque, qui peut être transformé en un espace de réunion polyvalent, et laissez-vous séduire par nos 66 chambres, toutes décorées avec goût dans des tons chaleureux et des matériaux nobles tels que le bois, le jonc de mer et le fer forgé. Notre hôtel incarne l’essence même de la Provence contemporaine </p>
+  
+  <p>Séjournez à l’Hôtel de l’Horloge et plongez dans une expérience inoubliable au cœur d’Avignon. Que vous soyez ici pour affaires ou pour le plaisir, notre emplacement privilégié et notre atmosphère enchanteresse sauront vous charmer. </p>
+  
+  <p> Réservez dès maintenant votre séjour à l’Hôtel de l’Horloge et découvrez la magie d’un hôtel 4 étoiles au cœur d’Avignon, où le charme et le confort se rencontrent pour créer une expérience inoubliable. </p>
+  
+  </div>
+
+</div>
+
+<div class="w3-container  w3-light-blue">
+  <p>Nous contacter: 04 90 16 42</p>
+</div>
+
+<script>
+  function openSidebar() {
+    var mainElement = document.getElementById("main");
+    var sidebarElement = document.getElementById("mySidebar");
+    var openNavButton = document.getElementById("openNav");
+
+    mainElement.style.marginLeft = "25%";
+    sidebarElement.style.width = "25%";
+    sidebarElement.style.display = "block";
+    openNavButton.style.display = 'none';
+  }
+
+  function closeSidebar() {
+    var mainElement = document.getElementById("main");
+    var sidebarElement = document.getElementById("mySidebar");
+    var openNavButton = document.getElementById("openNav");
+
+    mainElement.style.marginLeft = "0%";
+    sidebarElement.style.display = "none";
+    openNavButton.style.display = "inline-block";
+  }
+</script>
+
+
+</body>
+</html>

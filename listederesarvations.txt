@@ -1,0 +1,6 @@
+4|Dubois|4|7
+5|Merar|2|3
+6|Moreau|1|12
+7|Leroy|2|2
+8|Girard|1|11
+9|Takdjerad|3|1
